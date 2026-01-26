@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        body{
+            background-color:LightGoldenRodYellow;
+        }
+        h1, h2{
+            color:Sienna;
+        }
+        strong{
+            font-style:Italic;
+        }
+        .recipeLinks{
+            color:black;
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Eva's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#recipe1" class="recipeLinks">Recipe #1</a></li>
+            <li><a href="#recipe2" class="recipeLinks">Recipe #2</a></li>
+            <li><a href="#recipe3" class="recipeLinks">Recipe #3</a></li>
+        </ol>
+        
+        <h2 id="recipe1">Recipe #1</h2>
+        
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/sushi.png" width="350">
+        
+        <ul>
+            <li>Time: 25 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>tablespoons butter, melted</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>cloves garlic, grated or minced</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>cup panko breadcrumbs</td>
+                <td>1/4</td>
+            </tr>
+            <tr>
+                <td>cup finely grated parmesan</td>
+                <td>1/4</td>
+            </tr>
+            <tr>
+                <td>salmon fillets</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>teaspoon kosher salt</td>
+                <td>1/2</td>
+            </tr>
+            <tr>
+                <td>tablespoons minced fresh parsley</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>lemon wedges</td>
+                <td>4</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Preheat the oven to 425°F.
+</p>
+        <p><strong>Step 2:</strong> Prepare the breadcrumbs: In the small bowl with the remaining garlic butter, add the panko breadcrumbs and parmesan. Stir to combine.
+</p>
+        <p><strong>Step 3:</strong> Top the salmon:
+Pat the salmon fillets dry and season with salt. Place them in the buttery baking dish. If your salmon has skin, place the fillets skin-side down. Heap the breadcrumb mixture on top of the fillets. If any falls off, scoop it up and pile it back on top. Press lightly to help the breadcrumb mixture adhere.
+</p>
+        
+    <p><em>Source: <a href="https://www.simplyrecipes.com/garlic-knot-salmon-recipe-11882857">Simply recipes</a></em></p>
+    
+    <h2 id="recipe2">Recipe #2</h2>
+        
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/potato-chips.png" width="350">
+        
+        <ul>
+            <li>Time: 5 minutes</li>
+            <li>Serves: 1</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>eggs</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>tsp sunflower oil</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>tsp butter</td>
+                <td>1</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Season the beaten eggs well with salt and pepper. Heat the oil and butter in a non-stick frying pan over a medium-low heat until the butter has melted and is foaming.
+</p>
+        <p><strong>Step 2:</strong> Pour the eggs into the pan, tilt the pan ever so slightly from one side to another to allow the eggs to swirl and cover the surface of the pan completely. Let the mixture cook for about 20 seconds then scrape a line through the middle with a spatula.
+</p>
+        <p><strong>Step 3:</strong> Tilt the pan again to allow it to fill back up with the runny egg. Repeat once or twice more until the egg has just set.
+</p>
+        
+    <p><em>Source: <a href="https://www.bbcgoodfood.com/recipes/basic-omelette">Good food</a></em></p>
+    
+    <h2 id="recipe3">Recipe #3</h2>
+        
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/shish-kebab.png" width="350">
+        
+        <ul>
+            <li>Time: 5 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>large red onions, finely sliced into half-moons</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>green chillies, finely sliced</td>
+                <td>1-2</td>
+            </tr>
+            <tr>
+                <td>tbsp freshly squeezed lemon juice</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>sp garam masala or chaat masala</td>
+                <td>1/4</td>
+            </tr>
+            <tr>
+                <td>tsp sea salt flakes</td>
+                <td>1/4</td>
+            </tr>
+            <tr>
+                <td>tbsp finely chopped coriander</td>
+                <td>1</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Place the sliced onion in a bowl of cold water for 5 minutes, then drain well (this takes away the harsh bite and keeps them crisp). 
+</p>
+        <p><strong>Step 2:</strong> Add the onion, green chilli, lemon juice, garam masala or chaat masala, and sea salt to a mixing bowl. Mix to combine well. 
+</p>
+        <p><strong>Step 3:</strong> Stir through the coriander or scatter it over the top before serving.
+</p>
+        
+    <p><em>Source: <a href="https://simplehomeedit.com/recipe/fresh-indian-onion-salad/">Simple home</a></em></p>
+    </body>
+</html>

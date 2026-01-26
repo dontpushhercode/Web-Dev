@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            body {
+                background-color:OldLace;
+            }
+            .description {
+                font-style:Italic;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to ....</h1>
+        <p> find perfect place for yourself</p>
+        <h2>Japan</h2>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/mountains-and-lake.png" width="350" alt="Japan landscape">
+        <p class="description">With a population of over 123 million as of 2025, it is the world's 11th most populous country. Tokyo is the country's capital and largest city.</p>
+        
+        <ul>
+            <li>Walk around Tokyo (Shibuya Crossing, Harajuku)</li>
+            <li>Explore Kyoto temples and shrines</li>
+            <li>Visit Osaka street food markets</li>
+            <li>Ride the Shinkansen (bullet train)</li>
+        </ul>
+        
+        <h2>Hawaiʻi</h2>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png" width="350" alt="Hawaiʻi beach">
+        <p class="description">Hawaii is an island state of the United States, in the Pacific Ocean about 2,000 miles (3,200 km) southwest of the U.S. mainland</p>
+        
+        <ul>
+            <li>Go surfing</li>
+            <li>Hike Diamond Head volcano</li>
+            <li>Attend a luau (Hawaiian feast & dance show)</li>
+            <li>Learn hula dancing</li>
+        </ul>
+        
+        <h2>Switzerland</h2>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/mountain_matterhorn.png" width="350" alt="mountains">
+        <p class="description">Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe.</p>
+        <ul>
+            <li>Ride cable cars in the Swiss Alps</li>
+            <li>Ski or snowboard in winter</li>
+            <li>Walk around Zurich old town</li>
+            <li>Visit waterfalls in Lauterbrunnen</li>
+        </ul>
+    </body>
+</html>
