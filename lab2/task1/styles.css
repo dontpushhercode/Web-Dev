@@ -60,14 +60,6 @@ a{
     /* margin-top: 17px; */
 }
 
-.page_form{
-    /* margin-top: 132px;
-    margin-left: 80px; */
-    /* margin:0; */
-    /* position: relative; */
-    /* left: -2px; */
-}
-
 .page_form_reg{
     display: flex;
     flex-direction: column;
@@ -98,10 +90,6 @@ a{
     border: 1px solid #ccd0d5;
     opacity: 80%;
     box-sizing: border-box;
-}
-
-.page_form_input_field::placeholder{
-    /* color: light dark; */
 }
 
 #page_form_password{
