@@ -11,7 +11,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 110vh;
         gap: 40px;
         border-bottom: 1px solid #dbdbdb;
         /* padding-bottom: 10px; */
@@ -78,10 +78,16 @@
     }
 
     #img_meta_logo{
-        width:50px;
+        width:65px;
         height: auto;
         display: block;
         margin: 0 auto;
+    }
+
+    #img_facebook_logo{
+        width:23px;
+        /* padding-top: 10px; */
+        /* top: 20px; */
     }
 
     #vertical_line{
@@ -109,10 +115,6 @@
         margin-top:14%;
     }
 
-    #main_form{
-        /* display: block; */
-    }
-
     h3{
         /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; */
         font-stretch: var( 100%);
@@ -134,26 +136,26 @@
         background-image: linear-gradient(to right, #ff5c00, #ff0069, #d300c5);
     }
 
-    .form_elements{
-        /* width:290px; */
-        box-sizing:border-box;
-        display:block;
-        width: 100%;
-        margin-bottom: 10px;
-        margin-left:2px;
-        /* margin-bottom:6px; */
-        margin-top:6px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+.form_elements{
+    /* width:290px; */
+    box-sizing:border-box;
+    display:block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left:2px;
+    /* margin-bottom:6px; */
+    margin-top:6px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
-        font-size: 16px;
-        border-radius: 999px;
-        padding: 12px 14px;
-        margin-bottom: 10px;
-        border: 1px solid #dbdbdb;
+    font-size: 16px;
+    border-radius: 999px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
     /* background: #fafafa; */
-    }
+}
 
-    #button_submit {
+#button_submit {
     background: #9ec5f8;
     height:45px;
     border: none;
@@ -162,9 +164,9 @@
     cursor: pointer;
     margin-top: 25px;
     font-size: 16px;
-    }
+}
 
-    #button_forgot_password {
+#button_forgot_password {
     background: none;
     border: none;
     color: #000;
@@ -176,14 +178,15 @@
     padding-bottom: 3px;
     }
 
-    #button_sign_in_facebook {
+#button_sign_in_facebook {
     /* margin-top: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 45px;
+    padding: 0;
     background: #fff;
-    border: 1px solid #ccd3dd;
-    color: #000;
-    height:45px;
-    font-weight: 500;
-    cursor: pointer;
 }
 
     #create_account {
@@ -206,7 +209,7 @@
         border: 1px solid #dbdbdb;
         border-radius: 17px;
         padding-left: 15px;
-        padding-bottom: 14px;
+        padding-bottom: 16px;
         font-size: 15px;
         margin-bottom: 12px;
         font-weight:500;
@@ -218,28 +221,43 @@
     }
 
     #footer{
+        margin-top: 18px;
+        /* padding-left: 60px; */
         width :100%;
-        display: inline;
-        margin: 20px;
+        display: block;
+        padding-bottom: 65px;
+        /* margin: 20px; */
         /* margin-left: 186px; */
         /* display: flex;
         flex-direction: column; */
+    }
+
+    #footer_content{
+        display: block;
+        width:90%;
+        /* align-self: center; */
+        margin:0 auto;
+
     }
 
     a{
         text-decoration: none;
         color: black;
         font-size: 12px;
-        opacity: 70%;
+        opacity: 65%;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
 
     #page_footer_list{
         list-style: none;
         padding: 0;
-        margin: 0;
+        margin: 0px;
         display: flex;
         justify-content: center;
-        gap:5px;
-        padding-left: 15px;
+        /* gap:7px; */
+        /* padding-left: 15px; */
+        /* line-height: 1.5; */
+        flex-wrap: wrap; 
+        column-gap: 16px;
+        row-gap: 13px; 
     }
