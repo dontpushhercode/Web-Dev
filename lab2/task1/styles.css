@@ -219,3 +219,8 @@ p{
     position: relative;
     top: 2px;
 }
+
+#page_form_button_submit:hover{
+    background-color: #ccd0d5;
+    transition-duration:0.3s ;
+}
