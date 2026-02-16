@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# angular build/cache
+.angular/
+dist/
+
+# logs
+npm-debug.log
+
+# system files
+.DS_Store
