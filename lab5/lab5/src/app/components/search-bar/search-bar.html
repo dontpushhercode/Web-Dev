@@ -1,0 +1,17 @@
+<div class="search-bar">
+    <div id="content">
+        <button id="shop">Магазин</button>
+
+        <input type="text"
+        placeholder="Поиск товара"
+        [(ngModel)]="searchText"
+        id="search_field">
+
+        <button (click)="search()" id="search_button">&#x1F50E;&#xFE0E;</button>
+
+        <div id="my_city">
+            <p>Мой город:</p>
+            <a href="#">Алматы</a>
+        </div>
+    </div>
+</div>

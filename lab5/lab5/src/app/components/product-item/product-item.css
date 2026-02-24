@@ -1,0 +1,204 @@
+.product-item {
+    border: 1px solid Gainsboro;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: white;
+    width: 100%;
+    /* max-height: 300vh; */
+}
+
+.product-item:last-child {
+    border-right: 1px solid Gainsboro;
+}
+
+#product_image_container{
+    height: 35vh; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-bottom:0;
+    align-items: center;
+}
+
+#inner_div{
+    margin:0 auto;
+    width: 80%;
+    height: 80%;
+}
+
+a{
+    display: flex;
+    /* margin-top: 7%; */
+    padding-bottom:5%;  
+}
+
+#product_image{
+    width: 100%;
+    object-fit: contain;
+}
+
+#product_info {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: Helvetica;
+    font-weight: 100;
+    margin-left: 7%;
+}
+
+#product_name{
+    text-decoration: none;
+    color: DodgerBlue;
+    font-size:13px;
+    margin-top:3%;
+    /* flex-wrap: wrap; */
+}
+
+.payment_info,
+#price_info {
+    display: grid;
+    font-size: 14px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.payment_info{
+    color:gray;
+}
+
+#installment_info{
+    display: flex;
+    flex-direction: row;
+    gap:3%;
+}
+
+#in_installment{
+    padding: 2%;
+    background-color: gold;
+}
+
+#in_installment_term{
+    padding-top: 4%;
+    font-size:12px;
+    color:gray;
+}
+
+.payment_info p,
+#price_info p {
+    margin: 0;
+    margin-top: 5%;
+}
+
+#reviews{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    color: DodgerBlue;
+    padding: 0;
+    margin-top:-4%;
+}
+
+#price{
+    font-weight: 600;
+}
+
+#review_word{
+    margin-top:2%;
+}
+
+#review_stars{
+    color: red;
+    font-size: 15px;
+    margin:0;
+    letter-spacing:-10%;
+}
+
+#share_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 15%;
+    gap: 17%;
+    padding-top: 5%;
+}
+
+#share_button button{
+    color: white;
+    background-color: #147FE3;
+    border: 1px solid #147FE3;
+}
+
+#share_button button:hover{
+    color: white;
+    background-color: #0467c4;
+    border: 1px solid #0467c4;
+}
+
+hr{
+    width: 85%;
+    opacity: 50%;
+}
+
+h3, p{
+    margin:0;
+    margin:0;
+}
+
+.like_or_delete{
+    margin-top:5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+#add_fav{
+    width: 35%;
+    border: 2px solid #b01515;
+    font-size: 15px;
+}
+
+#add_fav:hover{
+    filter: brightness(0.85);
+}
+
+.fav-active {
+  color: white;
+  background-color: #e60e0e;
+}
+
+.fav-inactive {
+  color: #e60e0e;
+  background-color: white;
+}
+
+#likes{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    gap:3%;
+    align-items: center;
+    font-size: 13px;
+    color: gray;
+}
+
+#delete{
+    width: 50%;
+}
+
+#delete button{
+    border: 2px solid gainsboro;
+    color: #a3a3a3;
+    font-size: 15px;
+    height: 28px;
+}
+
+#delete button:hover{
+    color: #595959;
+    border-color: #595959;
+}

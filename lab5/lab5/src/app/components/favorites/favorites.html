@@ -1,0 +1,22 @@
+<div class="favorites">
+  <div id="button_div">
+    <button (click)="toggle()">
+      {{ isOpen ? 'Скрыть избранное' : 'Показать избранное' }}
+    </button>
+  </div>
+    <div *ngIf="isOpen" class="favorites-list">
+    <h1>Избранное</h1>
+
+    <ng-container *ngIf="favorites.length > 0; else emptyBlock">
+      <app-product-list
+        [products]="favorites"
+        (deleteProduct)="removeProduct($event)">
+      </app-product-list>
+    </ng-container>
+
+    <ng-template #emptyBlock>
+      <p class="empty-text">Нет избранного</p>
+    </ng-template>
+
+  </div>
+</div>

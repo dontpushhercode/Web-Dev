@@ -1,0 +1,18 @@
+<app-header></app-header>
+<app-search-bar 
+  (searchChanged)="onSearch($event)">
+</app-search-bar>
+<app-categories-menu 
+  (categoryChanged)="onCategoryChange($event)">
+</app-categories-menu>
+<app-favorites [allProducts]="allProducts"></app-favorites>
+
+  <div class="container">
+    <app-sidebar-filters></app-sidebar-filters>
+    <app-product-list
+      [products]="allProducts"
+      [searchText]="searchText"
+      [categoryId]="selectedCategory"
+      (deleteProduct)="removeProduct($event)">
+    </app-product-list>
+</div>

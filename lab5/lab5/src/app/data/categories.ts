@@ -1,0 +1,12 @@
+import {Category} from '../models/category';
+
+export const CATEGORIES:Category[]=[
+    {id: 1, name: 'Телефоны и гаджеты'},
+    {id: 2, name: 'Бытовая техника'},
+    {id: 3, name: 'ТВ, АУДИО, ВИДЕО'},
+    {id: 4, name: 'Компьютеры'},
+    {id: 5, name: 'Мебель'},
+    {id: 6, name: 'Красота и здоровье'},
+    {id: 7, name: 'Детские товары'},
+    {id: 8, name: 'Аптека'},
+]

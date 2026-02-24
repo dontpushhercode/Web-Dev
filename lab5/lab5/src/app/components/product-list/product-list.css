@@ -1,0 +1,9 @@
+.product_list {
+    width: 53%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 0 auto;
+    /* margin-top: 3%; */
+    /* margin-left:32.5%; */
+}

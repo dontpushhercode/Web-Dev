@@ -1,0 +1,44 @@
+<div class="product-item">
+    <div id="product_image_container">
+        <div id="inner_div">
+            <a href="{{product.link}}">
+                <img [src]="product.image" id="product_image">
+            </a>
+        </div>
+    </div>
+    <hr>
+    <div id="product_info">
+        <h3><a href="{{product.link}}" id="product_name">{{product.name}}</a></h3>
+        <div id="reviews">
+            <p id="review_stars">★★★★★</p>
+            <p id="review_word">({{product.reviews}} отзывов)</p>
+        </div>
+        <div class="payment_info">
+            <p>Цена</p>
+            <p>В рассрочку</p>
+        </div>
+        <div id="price_info">
+            <p id="price">{{product.price}} ₸</p>
+            <div id="installment_info">
+                <p id="in_installment">{{product.inInstallments}}₸ </p>
+                <p id="in_installment_term">x{{product.installmentTerm}}</p>
+            </div>
+        </div>
+        <div id="share_button">
+                <button (click)="shareToTelegram()">Telegram</button>
+                <button (click)="shareToWhatsApp()">WhatsApp</button>
+        </div>
+        <div class="like_or_delete">
+            <div id="likes">
+                <button
+                (click)="toggleFavorite()"
+                id="add_fav"
+                [ngClass]="{'fav-active': product.favorite, 'fav-inactive': !product.favorite }">❤︎⁠</button>
+                <p>{{product.likes}}</p>
+            </div>
+            <div id="delete">
+                <button (click)="remove()">Удалить</button>
+            </div>
+        </div>
+    </div>
+</div>

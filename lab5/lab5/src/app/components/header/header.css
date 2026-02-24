@@ -1,0 +1,46 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    gap:5%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.05);
+    font-family: Verdana;
+    padding-bottom:5px;
+}
+
+#logo{
+    margin-left:7%;
+    width: 25%;
+    display: flex;
+    letter-spacing: -1px;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    gap:1%;
+}
+
+#kaspi_img{
+    max-width: 140px;
+    max-height: 140px; 
+    width: auto;
+    height: auto;
+}
+
+#info{
+    width: 50%;
+    display: flex;
+    gap: 10%;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:gray;
+    font-weight: 100;
+    font-size: 16px;
+}
