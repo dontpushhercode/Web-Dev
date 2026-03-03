@@ -1,0 +1,12 @@
+<div class="container" *ngIf="photos$ | async as photos">
+  <h2>Photos of Album {{ albumId }}</h2>
+
+  <a [routerLink]="['/albums', albumId]" class="btn btn-outline-dark mb-3">Back</a>
+
+  <div class="photos-grid">
+    <div class="photo-card" *ngFor="let photo of photos; trackBy: trackByPhotoId">
+      <img [src]="photo.thumbnailUrl" [alt]="photo.title" />
+      <div class="photo-title">{{ photo.title }}</div>
+    </div>
+  </div>
+</div>
