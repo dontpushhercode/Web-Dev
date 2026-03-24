@@ -8,20 +8,31 @@ def product_list(request):
     return JsonResponse(data, safe=False)
 
 def product_detail(request, id):
-    product = Product.objects.filter(id=id).values()
-    return JsonResponse(list(product), safe=False)
+    try:
+        product = Product.objects.get(id=id)
+        data = list(product.values())
+        return JsonResponse(data, safe=False)
+    except Product.DoesNotExist:
+        return JsonResponse({'error': 'Product not found!'}, status=404)
 
-def caregory_list(request):
+def category_list(request):
     categories = Category.objects.all()
     data = list(categories.values())
     return JsonResponse(data, safe=False)
 
 def category_detail(request, id):
-    category = Category.objects.filter(id=id).values()
-    return JsonResponse(list(category), safe=False)
+    try:
+        category = Category.objects.get(id=id)
+        data = list(category.values())
+        return JsonResponse(data, safe=False)
+    except Category.DoesNotExist:
+        return JsonResponse({'error': 'Category not found!'}, status=404)
 
 def products_by_category(request, category_id):
-    products = Product.objects.filter(category_id=category_id)
-    data = list(products.values())
-    return JsonResponse(data, safe=False)
+    try:
+        products = Product.objects.filter(category_id=category_id)
+        data = list(products.values())
+        return JsonResponse(data, safe=False)
+    except Product.DoesNotExist:
+        return JsonResponse({'error': 'Products not found!'}, status=404)
 
