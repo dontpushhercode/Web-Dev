@@ -1,11 +1,11 @@
 {
   "info": {
-    "_postman_id": "3fa7195a-a8f0-4c7a-84b4-025bfb8bc2d6",
+    "_postman_id": "009b6fec-cda9-4534-8cb2-39376348aed2",
     "name": "Online Shop API",
     "description": "### Welcome to Postman! This is your first collection.\n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests  \n• Test your API in real-world scenarios  \n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "_exporter_id": "51271966",
-    "_collection_link": "https://go.postman.co/collection/51271966-3fa7195a-a8f0-4c7a-84b4-025bfb8bc2d6?source=collection_link"
+    "_collection_link": "https://go.postman.co/collection/51271966-009b6fec-cda9-4534-8cb2-39376348aed2?source=collection_link"
   },
   "item": [
     {
@@ -154,8 +154,11 @@
         },
         {
           "name": "Get products by category",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
           "request": {
-            "method": "POST",
+            "method": "GET",
             "header": [],
             "body": {
               "mode": "raw",
@@ -283,7 +286,12 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Updated Product Name\",\r\n    \"price\": 150.0,\r\n    \"description\": \"Updated description\",\r\n    \"count\": 5,\r\n    \"is_active\": true,\r\n    \"category\": 1\r\n}"
+              "raw": "{\r\n    \"name\": \"Updated Product Name\",\r\n    \"price\": 150.0,\r\n    \"description\": \"Updated description\",\r\n    \"count\": 5,\r\n    \"is_active\": true,\r\n    \"category\": 1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
             },
             "url": {
               "raw": "http://127.0.0.1:8000/api/products/{{product_id}}/",
