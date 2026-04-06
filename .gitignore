@@ -1,0 +1,17 @@
+# Node / Angular
+node_modules/
+dist/
+out-tsc/
+
+# Python / Django
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+*.log
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
