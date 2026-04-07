@@ -1,5 +1,6 @@
 from django.urls import path
 from .views import  ProductListAPIView, ProductDetailAPIView, CategoryListAPIView, CategoryDetailAPIView, CategoryProductsAPIView
+# from .views import product_list, product_detail
 
 #FBV, CBV:
 

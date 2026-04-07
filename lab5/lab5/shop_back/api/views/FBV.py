@@ -39,4 +39,4 @@ def product_detail(request, product_id):
     
     elif request.method == 'DELETE':
         product.delete()
-        return Response(status=status.HTTP_204_NO_CONTEXT)
+        return Response(status=status.HTTP_204_NO_CONTENT)
